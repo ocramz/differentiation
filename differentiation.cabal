@@ -5,7 +5,7 @@ description:         Please see README.md
 homepage:            https://github.com/ocramz/differentiation#readme
 license:             BSD3
 license-file:        LICENSE
-author:              Author name here
+author:              Marco Zocca
 maintainer:          Marco Zocca
 copyright:           2016 Marco Zocca
 category:            Numerical
@@ -17,6 +17,8 @@ library
   hs-source-dirs:      src
   exposed-modules:     Lib
   build-depends:       base >= 4.7 && < 5
+                     , containers
+                     , fgl
   default-language:    Haskell2010
 
 executable differentiation-exe
